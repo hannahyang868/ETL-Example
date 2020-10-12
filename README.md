@@ -1,7 +1,7 @@
 # ETL-Example
 Describing some ETL processes on Hadoop using Hive, Pig and Hadoop Streaming
 
-Input data are as follows:
+Input data are as follows (Please download into HDFS using wget):
 
 http://rasinsrv07.cstcis.cti.depaul.edu/CSC555/SSBM1/dwdate.tbl
 
