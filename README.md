@@ -13,7 +13,7 @@ http://rasinsrv07.cstcis.cti.depaul.edu/CSC555/SSBM1/supplier.tbl
 
 http://rasinsrv07.cstcis.cti.depaul.edu/CSC555/SSBM1/customer.tbl
 
-#### Hive
+## Hive
 
 This examples shows a ETL process on Hive to transform data and put into new table with selected columns (c_custkey, c_address, c_city). For the c_address column, shorten it to 6 characters (i.e., if the value is longer, remove extra characters, but otherwise keep it as-is). For c_city, add a space and a # to indicate the digit at the end (e.g., UNITED KI2 => UNITED KI #2, or INDONESIA4 => INDONESIA #4).
 
@@ -71,7 +71,7 @@ FROM customer;
 
 Select * from customer_new limit 5;
 
-#### Pig
+## Pig
 
 
 **Credits to Prof. Rasin for Input Data**
